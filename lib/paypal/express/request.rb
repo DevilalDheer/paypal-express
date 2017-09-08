@@ -30,7 +30,7 @@ module Paypal
           :city => :PAYMENTREQUEST_0_SHIPTOCITY,
           :state => :PAYMENTREQUEST_0_SHIPTOSTATE,
           :zip => :PAYMENTREQUEST_0_SHIPTOZIP,
-          :country => :PAYMENTREQUEST_0_SHIPTOCOUNTRY,
+          :country => :PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE,
           :invoice_number => :PAYMENTREQUEST_0_INVNUM,
           :phone => :PAYMENTREQUEST_0_SHIPTOPHONENUM
 
