@@ -9,9 +9,13 @@ module Paypal
   mattr_accessor :api_version
   self.api_version = '204.0'
 
+  # ENDPOINT = {
+  #   :production => 'https://www.paypal.com/cgi-bin/webscr',
+  #   :sandbox => 'https://www.sandbox.paypal.com/cgi-bin/webscr'
+  # }
   ENDPOINT = {
-    :production => 'https://www.paypal.com/cgi-bin/webscr',
-    :sandbox => 'https://www.sandbox.paypal.com/cgi-bin/webscr'
+    :production => 'https://www.paypal.com/webapps/hermes',
+    :sandbox => 'https://www.sandbox.paypal.com/webapps/hermes'
   }
   POPUP_ENDPOINT = {
     :production => 'https://www.paypal.com/incontext',
